@@ -1,0 +1,164 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+ body {
+    background: linear-gradient(45deg, #190361, #bb00ff);
+	  animation: gradient 10s ease infinite;
+    background-size: 200% 200%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    place-items: center;
+    display: grid;
+
+  }
+
+  @keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+  main {
+    border-radius: 0.5rem;
+    background: #FFFFFF;
+    box-shadow: 0 2rem 5rem 0 rgba(0, 0, 0, 0.80);
+    display: flex;
+    width: 42.8rem;
+    padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+    justify-content: center;
+    align-items: center;
+
+    width: min(42.8rem, 90%);
+    
+    
+  }
+
+  h1 {
+    color: #34355B;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    margin-bottom: 1.4rem;
+  }
+
+  p{
+    color: #34355B;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 2.6rem;
+  }
+
+  .cookie {
+    width: 24.8rem;
+    height: 19.1rem;
+    cursor: pointer;
+    
+  }
+
+  
+  .hide{
+    display: none;
+  }
+
+  /*screen2*/
+
+  
+  h2 {
+    color: #34355B;
+
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 2.7rem;
+  }
+  
+  #verse {
+
+    width: 27.3rem;
+    color: #000;
+
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 1.6rem;
+    margin-bottom: 6rem;
+
+    background: #E4EDF1;
+    box-shadow: 2rem 2rem 2rem 0 rgba(168, 167, 167, 0.5);
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .bisaberto {
+    display: flex;
+    width: 30rem;
+    height: 11.4rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5.9rem;
+  
+  }
+
+  button {
+    display: flex;
+    padding: 1.6rem;
+    margin-left: 6.3rem;
+    gap: 1rem;
+    margin-top: 5.9rem;
+    
+    
+
+    border-radius: .4rem;
+    background: #FF9500;
+    border: none;
+    color: #FFF;
+
+    font-family: 'DM Sans', sans-serif;
+    color: #FFF;
+
+    
+    
+    
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+    transition: background .3s;
+  }
+
+  button:hover {
+    background: #fdb043c8; 
+  }
+
+  
